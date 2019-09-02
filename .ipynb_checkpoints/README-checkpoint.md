@@ -11,11 +11,11 @@ Machine: Amazon EC2(p2.xlarge instance); OS: Deep Learning AMI (Ubuntu) Version 
 
 
 # Code illustration
-data_processing.ipynb: data preprocessing; model_training.ipynb: model building, training & prediction.
+data_processing.ipynb: data preprocessing, including data visualization, data cleaning, spliting trainig&validation set, data augmentation; model_training_x.ipynb: including model building, model training with different optimizer & parameter, model prediction.
 
 
 # Training Time used
-model which combining Xception&InceptionV3: about 5600s, 8 epochs in all; model which combining NARSNetLarge&InceptionResNetV2: about 20640s, 8 epochs in all.
+model which combining Xception&InceptionV3: about 700s per epochs; model which combining NARSNetLarge&InceptionResNetV2: about 2580s per epochs.
 
 
 # Data sources
